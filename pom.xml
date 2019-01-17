@@ -1,0 +1,35 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.bytedeco.javacpp-presets.ffmpeg</groupId>
+    <artifactId>demo</artifactId>
+    <version>1.4.4-SNAPSHOT</version>
+    <properties>
+        <!--<exec.mainClass>ReadFewFrame</exec.mainClass>-->
+        <!--<exec.mainClass>RsTest</exec.mainClass>-->
+        <exec.mainClass>RecordOrStreamTest</exec.mainClass>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.bytedeco.javacpp-presets</groupId>
+            <artifactId>ffmpeg</artifactId>
+            <version>4.1-1.4.4</version>
+            <classifier>macosx-x86_64</classifier>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.bytedeco.javacpp-presets</groupId>-->
+            <!--<artifactId>ffmpeg-platform</artifactId>-->
+            <!--<version>4.1-1.4.4</version>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<groupId>org.bytedeco.javacpp-presets</groupId>-->
+                    <!--<artifactId>ffmpeg</artifactId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv</artifactId>
+            <version>1.4.4</version>
+        </dependency>
+    </dependencies>
+</project>
