@@ -23,10 +23,10 @@ import java.util.concurrent.TimeUnit;
 public class RecordOrStreamTest {
 
     final static String VIDEO_DEVICE = "1";
-    final static String VIDEO_NAME = "/Users/baojikui/Desktop/output.mp4";
-    //    final static String VIDEO_NAME = "/code/output.mp4";
+//    final static String VIDEO_NAME = "/Users/baojikui/Desktop/output.mp4";
+        final static String VIDEO_NAME = "/code/output.mp4";
     final static String RTMP_ADDR = "rtmp://pili-publish.daishuclass.cn/daishu-video/test_1234";
-    final private static String X11GRAB = ":1.0+10,10";
+    final private static String X11GRAB = ":1.0";
 
     final static int FRAME_RATE = 30;
     final static int GOP_LENGTH_IN_FRAMES = 60;
@@ -38,10 +38,10 @@ public class RecordOrStreamTest {
         int captureWidth = 1280;
         int captureHeight = 720;
 
-        //        FFmpegFrameGrabber grabber = new FFmpegFrameGrabber(X11GRAB);
-        //        grabber.setFormat("x11grab");
-        FFmpegFrameGrabber grabber = new FFmpegFrameGrabber(VIDEO_DEVICE);
-        grabber.setFormat("avfoundation");
+                FFmpegFrameGrabber grabber = new FFmpegFrameGrabber(X11GRAB);
+                grabber.setFormat("x11grab");
+//        FFmpegFrameGrabber grabber = new FFmpegFrameGrabber(VIDEO_DEVICE);
+//        grabber.setFormat("avfoundation");
         grabber.setImageWidth(captureWidth);
         grabber.setImageHeight(captureHeight);
         grabber.start();
@@ -57,8 +57,8 @@ public class RecordOrStreamTest {
         recorder1.start();
 
         //获取麦克风音频
-        MicoAudioThread micoAudioThread = new MicoAudioThread(recorder, recorder1);
-        micoAudioThread.start();
+//        MicoAudioThread micoAudioThread = new MicoAudioThread(recorder, recorder1);
+//        micoAudioThread.start();
 
         //视频
         Frame capturedFrame = null;
@@ -103,7 +103,7 @@ public class RecordOrStreamTest {
             }
         }
 
-        micoAudioThread.interrupt();
+//        micoAudioThread.interrupt();
         recorder.stop();
         recorder1.stopCopy();
         grabber.stop();
@@ -169,6 +169,7 @@ class MicoAudioThread extends Thread {
 
             ScheduledThreadPoolExecutor exec = new ScheduledThreadPoolExecutor(1);
             exec.scheduleAtFixedRate(new Runnable() {
+                @Override
                 public void run() {
                     try {
                         int nBytesRead = 0;
