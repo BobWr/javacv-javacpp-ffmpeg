@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c04fd3c-dd57-4adc-9bbe-b43703b609cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_ffmpeg_macosx_x86_64_4_1_1_4_4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RecordOrStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecordOrStreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavacvTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavacvTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MicoAudioThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MicoAudioThread$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MicoAudioThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MicoAudioThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyFFmpegFrameRecorder$WriteCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyFFmpegFrameRecorder$WriteCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyFFmpegFrameRecorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyFFmpegFrameRecorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ReadFewFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ReadFewFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RecordOrStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RecordOrStreamTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScreenRecorder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ScreenRecorder$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScreenRecorder$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ScreenRecorder$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScreenRecorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ScreenRecorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alpine-jar/ffmpeg-4.1-1.4.4-linux-x86_64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/alpine-jar/ffmpeg-4.1-1.4.4-linux-x86_64.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alpine-jar/ffmpeg-4.1-1.4.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/alpine-jar/ffmpeg-4.1-1.4.4.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +19,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="255">
               <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
@@ -44,8 +28,8 @@
       <file leaf-file-name="RecordOrStreamTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/RecordOrStreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+            <state relative-caret-position="569">
+              <caret line="196" column="90" lean-forward="true" selection-start-line="169" selection-start-column="12" selection-end-line="196" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,7 +40,7 @@
       <file leaf-file-name="FFmpegFrameGrabber.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacv/1.4.4/javacv-1.4.4.jar!/org/bytedeco/javacv/FFmpegFrameGrabber.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="9163">
               <caret line="626" column="22" selection-start-line="626" selection-start-column="22" selection-end-line="626" selection-end-column="22" />
             </state>
           </provider>
@@ -65,7 +49,7 @@
       <file leaf-file-name="FFmpegFrameRecorder.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacv/1.4.3/javacv-1.4.3.jar!/org/bytedeco/javacv/FFmpegFrameRecorder.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="12376">
               <caret line="792" column="5" selection-start-line="792" selection-start-column="5" selection-end-line="792" selection-end-column="5" />
             </state>
           </provider>
@@ -74,23 +58,11 @@
       <file leaf-file-name="MyFFmpegFrameRecorder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyFFmpegFrameRecorder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="10489">
               <caret line="623" column="37" selection-start-line="623" selection-start-column="25" selection-end-line="623" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4166#7761#0" />
-                <element signature="e#7929#7930#0" expanded="true" />
-                <element signature="e#8024#8025#0" expanded="true" />
-                <element signature="e#8304#8305#0" expanded="true" />
-                <element signature="e#8411#8412#0" expanded="true" />
-                <element signature="e#8473#8474#0" expanded="true" />
-                <element signature="e#8581#8582#0" expanded="true" />
-                <element signature="e#31746#32677#0" />
-                <element signature="e#32683#38001#0" />
-                <element signature="e#47030#48189#0" />
-                <element signature="e#48195#49523#0" />
                 <element signature="initializer##0;class#MyFFmpegFrameRecorder#0" />
-                <element signature="e#49970#50624#0" />
               </folding>
             </state>
           </provider>
@@ -99,8 +71,32 @@
       <file leaf-file-name="ScreenRecorder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ScreenRecorder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
+            <state relative-caret-position="136">
               <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadFewFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ReadFewFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavacvTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavacvTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="79" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,8 +189,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Test1.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyFFmpegFrameRecorder.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/RecordOrStreamTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/RsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RecordOrStreamTest.java" />
       </list>
     </option>
   </component>
@@ -247,8 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -277,12 +271,18 @@
             </path>
             <path>
               <item name="readfewframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="javacpp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="RecordOrStreamTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,11 +410,13 @@
       <workItem from="1547172965428" duration="26565000" />
       <workItem from="1547433190350" duration="35727000" />
       <workItem from="1547633356924" duration="18308000" />
+      <workItem from="1548576538064" duration="2412000" />
+      <workItem from="1548652846448" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108291000" />
+    <option name="totallyTimeSpent" value="110731000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,19 +433,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3090909" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2274678" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23319027" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -453,6 +454,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38060606" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32969698" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -461,6 +463,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -645,16 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavacvTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="79" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacv/1.4.3/javacv-1.4.3.jar!/org/bytedeco/javacv/FrameGrabber.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3621">
@@ -672,16 +674,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/ffmpeg/4.1-1.4.4/ffmpeg-4.1-1.4.4-linux-x86_64.jar!/org/bytedeco/javacpp/linux-x86_64/libavdevice.so.58">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReadFewFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacv/1.4.4/javacv-1.4.4.jar!/org/bytedeco/javacv/FrameRecorder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -696,15 +688,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/ffmpeg-platform/4.1-1.4.4/ffmpeg-platform-4.1-1.4.4.jar!/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/ffmpeg-platform/4.1-1.4.4/ffmpeg-platform-4.1-1.4.4.jar!/MANIFEST.MF" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/ffmpeg-platform/4.1-1.4.4/ffmpeg-platform-4.1-1.4.4.jar!/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/ffmpeg-platform/4.1-1.4.4/ffmpeg-platform-4.1-1.4.4.jar!/maven/org.bytedeco.javacpp-presets/ffmpeg-platform/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/ffmpeg-platform/4.1-1.4.4/ffmpeg-platform-4.1-1.4.4.jar!/maven/org.bytedeco.javacpp-presets/ffmpeg-platform/pom.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/ffmpeg-platform/4.1-1.4.4/ffmpeg-platform-4.1-1.4.4.jar!/META-INF/maven/org.bytedeco.javacpp-presets/ffmpeg-platform/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -732,37 +720,25 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacv/1.4.3/javacv-1.4.3.jar!/org/bytedeco/javacv/FFmpegFrameRecorder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="12376">
           <caret line="792" column="5" selection-start-line="792" selection-start-column="5" selection-end-line="792" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="255">
           <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MyFFmpegFrameRecorder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="10489">
           <caret line="623" column="37" selection-start-line="623" selection-start-column="25" selection-end-line="623" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4166#7761#0" />
-            <element signature="e#7929#7930#0" expanded="true" />
-            <element signature="e#8024#8025#0" expanded="true" />
-            <element signature="e#8304#8305#0" expanded="true" />
-            <element signature="e#8411#8412#0" expanded="true" />
-            <element signature="e#8473#8474#0" expanded="true" />
-            <element signature="e#8581#8582#0" expanded="true" />
-            <element signature="e#31746#32677#0" />
-            <element signature="e#32683#38001#0" />
-            <element signature="e#47030#48189#0" />
-            <element signature="e#48195#49523#0" />
             <element signature="initializer##0;class#MyFFmpegFrameRecorder#0" />
-            <element signature="e#49970#50624#0" />
           </folding>
         </state>
       </provider>
@@ -783,24 +759,12 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacv/1.4.4/javacv-1.4.4.jar!/org/bytedeco/javacv/FFmpegFrameGrabber.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="9163">
           <caret line="626" column="22" selection-start-line="626" selection-start-column="22" selection-end-line="626" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenRecorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame1_.ppm">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frame1_.ppm" />
     <entry file="file://$PROJECT_DIR$/src/main/java/RsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -811,10 +775,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenRecorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReadFewFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavacvTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="79" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RecordOrStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+        <state relative-caret-position="569">
+          <caret line="196" column="90" lean-forward="true" selection-start-line="169" selection-start-column="12" selection-end-line="196" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
